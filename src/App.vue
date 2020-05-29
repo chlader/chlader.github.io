@@ -39,4 +39,10 @@ a {
 a:hover {
   color: #999999;
 }
+
+@media screen  and (max-width: 320px) {
+    nav {
+      grid-template-columns: 1fr 100px 100px 100px 1fr;
+    }
+}
 </style>
