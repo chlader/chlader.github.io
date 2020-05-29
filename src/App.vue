@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <nav>
+      <div></div>
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
       <router-link to="/contact">Contact</router-link>
@@ -26,9 +27,8 @@ export default {
 }
 
 nav {
-  margin-left: 75%;
   display: grid;
-  grid-template-columns: 150px 150px 150px;
+  grid-template-columns: 1fr 150px 150px 150px;
 }
 
 a {
