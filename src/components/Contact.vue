@@ -1,7 +1,7 @@
 <template>
   <div style="margin-top: 50px;">
     <h1 style="margin-bottom: 75px;">Contact Me</h1>
-    <p style="font-size: 24px;">
+    <p>
       I am
       <span style="font-weight: bolder;">ALWAYS</span> looking for more work. Connect with me for more!
     </p>
@@ -74,5 +74,20 @@ svg {
 
 svg:hover {
   color: #999999;
+}
+
+p {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 320px) {
+  svg {
+    height: 50px;
+    width: 50px;
+  }
+
+  p {
+    font-size: 18px;
+  }
 }
 </style>

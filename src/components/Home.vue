@@ -1,6 +1,6 @@
 <template>
   <div>
-      <img src="../assets/chi.jpg" alt="" style="height: 300px;">
+      <img src="../assets/chi.jpg" alt="" class="image">
       <h2>Hello my name is Ryan</h2>
       <h4>I am a software developer located in Chicago, Illinois</h4>
   </div>
@@ -13,5 +13,12 @@ export default {
 </script>
 
 <style>
-
+.image {
+  height: 300px;
+}
+@media screen and (max-width: 320px) {
+  .image {
+    height: 150px;
+  }
+}
 </style>
