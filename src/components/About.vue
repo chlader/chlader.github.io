@@ -116,4 +116,35 @@ p {
         font-size: 12px;
     }
 }
+
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    h1 {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .columns {
+        grid-column-gap: 15px;
+    }
+
+    .column-1, .column-2 {
+        line-height: 25px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+
+    .description-c1 {
+        margin-left: 25px;
+        font-size: 14px;
+    }
+
+    .description-c2 {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}
 </style>
