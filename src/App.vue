@@ -45,4 +45,10 @@ a:hover {
       grid-template-columns: 1fr 100px 100px 100px 1fr;
     }
 }
+
+@media screen  and (max-width: 375px) {
+    nav {
+      grid-template-columns: 20px 120px 120px 120px;
+    }
+}
 </style>

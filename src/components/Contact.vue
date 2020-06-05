@@ -90,4 +90,15 @@ p {
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  svg {
+    height: 40px;
+    width: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
 </style>

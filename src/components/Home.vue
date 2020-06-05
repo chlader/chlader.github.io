@@ -21,4 +21,14 @@ export default {
     height: 150px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .image {
+    height: 150px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
 </style>
