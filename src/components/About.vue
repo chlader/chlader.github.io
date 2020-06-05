@@ -1,7 +1,7 @@
 <template>
   <div style="margin-top: 50px">
       <h1 style="margin-bottom: 75px;">About Me</h1>
-      <p style="font-size: 24px;" class="description">I <span style="font-weight: bolder;">DESIGN</span> & <span style="font-weight: bolder;">GROW</span> products that people love!</p>
+      <p class="description">I <span style="font-weight: bolder;">DESIGN</span> & <span style="font-weight: bolder;">GROW</span> products that people love!</p>
       
       <div class="columns">
           <div class="column-1">
@@ -84,6 +84,36 @@ p {
 
     .description-c2 {
         margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1 {
+        margin-left: 10px;
+        font-size: 24px;
+    }
+
+    .columns {
+        grid-column-gap: 50px;
+    }
+
+    .column-1, .column-2 {
+        line-height: 20px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+
+    .description-c1 {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .description-c2 {
+        margin-right: 10px;
+        font-size: 12px;
     }
 }
 </style>
