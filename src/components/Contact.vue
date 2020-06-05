@@ -93,12 +93,24 @@ p {
 
 @media screen and (max-width: 375px) {
   svg {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
   }
 
   p {
     font-size: 18px;
   }
 }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) { 
+  svg {
+    height: 50px;
+    width: 50px;
+  }
+
+  p {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+ }
 </style>

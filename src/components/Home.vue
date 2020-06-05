@@ -31,4 +31,20 @@ export default {
     font-size: 18px;
   }
 }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+  .image {
+    height: 150px;
+  }
+
+  h2 {
+    margin-left: 15px;
+    font-size: 18px;
+  }
+
+  h4 {
+    margin-left: 15px;
+    font-size: 18px;
+  }
+}
 </style>
